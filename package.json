@@ -1,0 +1,27 @@
+{
+  "name": "instaglamour-website",
+  "version": "1.0.0",
+  "description": "[https://miikahyttinen.github.io]",
+  "main": "src/assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:scss": "node-sass --output-style compressed -o assets/css assets/sass",
+    "watch:css": "onchange \"assets/scss\" -- npm run build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miikahyttinen/instaglamour-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miikahyttinen/instaglamour-website/issues"
+  },
+  "homepage": "https://github.com/miikahyttinen/instaglamour-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2"
+  },
+  "dependencies": {}
+}
