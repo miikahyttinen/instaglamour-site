@@ -12,5 +12,5 @@ Compile sass to css: `npm run css:scss`
 
 Develop simply by editing html files and scss. Preview locally by opening html files in your browser.
 
-Modifies from https://html5up.net/ template
+Modified from https://html5up.net/ template
 
